@@ -3098,7 +3098,7 @@ h6 {
 
   .dropdown {
     position: absolute;
-    left: calc(100% - 42px);
+    left: calc(100% - 50px);
     top: 5px;
   }
 
@@ -3662,6 +3662,10 @@ h6 {
   .gallery_third {
     grid-template-columns: auto;
   }
+
+  .for_our_clients_head > h3 {
+    font-size: 36px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -3725,7 +3729,7 @@ h6 {
 
 @media (max-width: 485px) {
   .bag_click {
-    width: 345px;
+    width: 335px;
   }
 
   .goo_in_bag_p {
