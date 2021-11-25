@@ -3000,7 +3000,7 @@ h6 {
 
 @media (max-width: 1290px) {
   .container {
-    width: 98%;
+    width: 99%;
   }
 
   .social_link {
@@ -3090,6 +3090,11 @@ h6 {
     top: 115px;
     width: 100%;
     text-align: center;
+  }
+
+  .discount {
+    text-align: center;
+    width: 98%;
   }
 
   .login_block {
