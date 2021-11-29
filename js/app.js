@@ -115,6 +115,35 @@ bag.addEventListener("click", () => {
   bagclick.classList.toggle("bagclick_active");
 });
 
+const cb1 = document.querySelector(".cb1");
+const checkboxface = document.querySelector(".checkbox_face");
+const index = document.querySelector(".index_registration");
+const adress1 = document.querySelector(".registration_adress1");
+const adress2 = document.querySelector(".registration_adress2");
+const pyisFace = document.querySelector(".phis_face");
+const yurFace = document.querySelector(".yur_face");
+cb1.addEventListener("click", () => {
+  cb1.style.display = "none";
+  checkboxface.style.display = "block";
+  pyisFace.classList.toggle("pyisFace2");
+  yurFace.classList.toggle("yurFace2");
+});
+
+function radio() {
+  adress1.style.display = "none";
+  index.style.display = "none";
+  adress2.style.display = "block";
+  pyisFace.classList.toggle("pyisFace2");
+  yurFace.classList.toggle("yurFace2");
+}
+function radio2() {
+  adress1.style.display = "block";
+  index.style.display = "block";
+  adress2.style.display = "none";
+  pyisFace.classList.toggle("pyisFace2");
+  yurFace.classList.toggle("yurFace2");
+}
+
 function openCity(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
@@ -136,4 +165,5 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active1";
 }
 document.getElementById("defaultOpen").click();
+
 
