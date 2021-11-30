@@ -122,12 +122,15 @@ const adress1 = document.querySelector(".registration_adress1");
 const adress2 = document.querySelector(".registration_adress2");
 const pyisFace = document.querySelector(".phis_face");
 const yurFace = document.querySelector(".yur_face");
-cb1.addEventListener("click", () => {
-  cb1.style.display = "none";
-  checkboxface.style.display = "block";
-  pyisFace.classList.toggle("pyisFace2");
-  yurFace.classList.toggle("yurFace2");
-});
+
+try {
+  cb1.addEventListener("click", () => {
+    cb1.style.display = "none";
+    checkboxface.style.display = "block";
+    pyisFace.classList.toggle("pyisFace2");
+    yurFace.classList.toggle("yurFace2");
+  });
+} catch {}
 
 function radio() {
   adress1.style.display = "none";
@@ -144,26 +147,62 @@ function radio2() {
   yurFace.classList.toggle("yurFace2");
 }
 
-function openCity(evt, cityName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
+const recov = document.querySelector(".recovery_div");
+const recovbtn = document.querySelector(".recovery_button");
+try {
+  recovbtn.addEventListener("click", () => {
+    recov.style.display = "block";
+  });
+} catch {}
 
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+try {
+  function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active1", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active1";
   }
+  document.getElementById("defaultOpen").click();
+} catch {}
 
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active1", "");
-  }
-
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active1";
+const transaction = document.querySelector(".transaction_svg");
+const transaction4 = document.querySelector(".transaction_svg4");
+const transaction2 = document.querySelector(".transaction_svg2");
+const transaction3 = document.querySelector(".transaction_svg3");
+console.log(transaction2);
+if (transaction2 != null) {
+  transaction2.addEventListener("mouseover", () => {
+    transaction.classList.add("trans");
+  });
 }
-document.getElementById("defaultOpen").click();
+if (transaction2 != null) {
+  transaction2.addEventListener("mouseout", () => {
+    transaction.classList.remove("trans");
+  });
+}
+if (transaction3 != null) {
+  transaction3.addEventListener("mouseover", () => {
+    transaction4.classList.add("trans");
+  });
+}
+if (transaction3 != null) {
+  transaction3.addEventListener("mouseout", () => {
+    transaction4.classList.remove("trans");
+  });
+}
 
 
