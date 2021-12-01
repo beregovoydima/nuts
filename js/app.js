@@ -205,4 +205,21 @@ if (transaction3 != null) {
   });
 }
 
+const bagBlock = document.querySelector(".bag_block");
+const bagNone = document.querySelector(".bag_none");
+const bagPage = document.querySelector(".bag_page_header");
+const bagPageText = document.querySelector(".bag_page_text");
+const bagPageTextNone = document.querySelector(".bag_page_text_none");
+const goinshop = document.querySelector(".go_in_shop");
+
+if (bagPageTextNone != null) {
+  bagPageTextNone.addEventListener("click", () => {
+    bagPageText.style.display = "none";
+    bagPage.style.display = "none";
+    bagBlock.style.display = "none";
+    goinshop.style.display = "none";
+    bagNone.style.display = "block";
+  });
+}
+
 
