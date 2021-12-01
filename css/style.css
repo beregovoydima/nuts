@@ -4837,6 +4837,445 @@ input::-webkit-calendar-picker-indicator {
   text-align: center;
 }
 
+.bag_page {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container_bag_page {
+  position: relative;
+}
+
+.bag_page_product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.bag_page_product > div {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 16px;
+  color: #1a2f3f;
+  cursor: pointer;
+}
+
+.bag_page_product > div:hover svg > path {
+  fill: #93b474;
+}
+
+.bag_page_product_about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bag_page_product_about > div {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: #1a2f3f;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.checkout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+.bag_checkout > a {
+  width: 249px;
+}
+
+.go_in_shop {
+  width: 249px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  border: 2px solid #337d5a;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 16px;
+  color: #337d5a;
+  cursor: pointer;
+}
+
+.go_in_shop:hover {
+  background-color: #337d5a;
+  color: #fff;
+}
+
+.go_in_shop:hover svg > path {
+  fill: #fff;
+}
+
+.bag_page_header {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 28px;
+  color: #1a2f3f;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.bag_page_text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.bag_page_text > a {
+  text-decoration: none;
+  cursor: pointer;
+  font-family: Raleway;
+  font-weight: 600;
+  border-bottom: 1px solid transparent;
+  font-size: 18px;
+  color: #1a2f3f;
+}
+
+.bag_page_text > a:hover {
+  border-bottom: 1px solid #337d5a;
+  color: #337d5a;
+}
+
+.bag_page_text > span {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1a2f3f;
+}
+
+.bag_none {
+  display: none;
+}
+
+.checkout_ordering {
+  margin: 0;
+}
+
+.orders_card {
+  margin-left: 15px;
+}
+
+.orders_card_form > label > input[type=text],
+.orders_card_form > label > input[type=email],
+.orders_card_form > label > input[type=tel] {
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 474px;
+  height: 47px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.orders_card_form > label > input[type=text]:hover,
+.orders_card_form > label > input[type=email]:hover,
+.orders_card_form > label > input[type=tel]:hover {
+  border: 1.5px solid #337d5a;
+}
+
+.orders_card_form > label > input[type=text]::-webkit-input-placeholder, .orders_card_form > label > input[type=email]::-webkit-input-placeholder, .orders_card_form > label > input[type=tel]::-webkit-input-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_card_form > label > input[type=text]::-moz-placeholder, .orders_card_form > label > input[type=email]::-moz-placeholder, .orders_card_form > label > input[type=tel]::-moz-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_card_form > label > input[type=text]:-ms-input-placeholder, .orders_card_form > label > input[type=email]:-ms-input-placeholder, .orders_card_form > label > input[type=tel]:-ms-input-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_card_form > label > input[type=text]::-ms-input-placeholder, .orders_card_form > label > input[type=email]::-ms-input-placeholder, .orders_card_form > label > input[type=tel]::-ms-input-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_card_form > label > input[type=text]::placeholder,
+.orders_card_form > label > input[type=email]::placeholder,
+.orders_card_form > label > input[type=tel]::placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.orders_radio_div {
+  margin-bottom: 10px;
+}
+
+.orders_radio > label > input {
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 474px;
+  height: 47px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.orders_radio > label > input:hover {
+  border: 1.5px solid #337d5a;
+}
+
+.orders_radio > label > input::-webkit-input-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_radio > label > input::-moz-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_radio > label > input:-ms-input-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_radio > label > input::-ms-input-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_radio > label > input::placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_radio > div > label {
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.curier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.adress_radio_order {
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 474px;
+  height: 47px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.adress_radio_order:hover {
+  border: 1.5px solid #337d5a;
+}
+
+.adress_radio_order::-webkit-input-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.adress_radio_order::-moz-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.adress_radio_order:-ms-input-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.adress_radio_order::-ms-input-placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.adress_radio_order::placeholder {
+  padding-left: 15px;
+  color: #1a2f3f;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.orders_radio > div {
+  position: relative;
+  padding: 0 6px;
+  margin: 10px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.orders_radio > div > input[type=radio] {
+  display: none;
+}
+
+.orders_radio > div label {
+  color: #666;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.orders_radio > div label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 0;
+  margin: 0 5px 0 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 11px;
+  border: 2px solid #337d5a;
+  background-color: transparent;
+}
+
+.orders_radio > div input[type=radio]:checked + label:after {
+  border-radius: 11px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  content: " ";
+  display: block;
+  background: #337d5a;
+}
+
+.checkbox_face {
+  display: none;
+}
+
 @media (max-width: 1290px) {
   .container {
     width: 98%;
@@ -5614,6 +6053,16 @@ input::-webkit-calendar-picker-indicator {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
+
+  .checkout {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
 }
 
 @media (max-width: 650px) {
@@ -5959,6 +6408,18 @@ input::-webkit-calendar-picker-indicator {
     font-size: 13px;
     line-height: 15px;
     width: 50%;
+  }
+
+  .bag_page_header {
+    font-size: 24px;
+  }
+
+  .bag_page_text > a {
+    font-size: 14px;
+  }
+
+  .bag_page_text > span {
+    font-size: 14px;
   }
 }
 
