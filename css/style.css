@@ -4532,6 +4532,310 @@ input[type=checkbox]:not(:checked) + label:after {
   display: block;
 }
 
+.personal_contact_information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.personal_contact_information_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 50px;
+  margin-top: 40px;
+  width: 45%;
+}
+
+.personal_contact_information_div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.personal_contact_information_form > label > input {
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 47px;
+  margin-bottom: 14px;
+}
+
+.personal_contact_information_form > label > input:focus {
+  outline: none;
+  border: 1.5px solid #337d5a;
+}
+
+.personal_contact_information_form > label ::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1a2f3f;
+  padding-left: 15px;
+}
+
+.personal_contact_information_form > label ::-moz-placeholder {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1a2f3f;
+  padding-left: 15px;
+}
+
+.personal_contact_information_form > label :-ms-input-placeholder {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1a2f3f;
+  padding-left: 15px;
+}
+
+.personal_contact_information_form > label ::-ms-input-placeholder {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1a2f3f;
+  padding-left: 15px;
+}
+
+.personal_contact_information_form > label ::placeholder {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1a2f3f;
+  padding-left: 15px;
+}
+
+.personal_contact_information_form > button {
+  width: 229px;
+  height: 50px;
+  border: none;
+  background: #337d5a;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 17px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact_informatiion_image {
+  width: 131px;
+  height: 170px;
+}
+
+.contact_information_image {
+  margin-top: 40px;
+}
+
+.personal_details_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.personal_details_div {
+  margin-left: 20px;
+  width: 45%;
+}
+
+.personal_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.personal-details_form > label > input {
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 47px;
+  margin-bottom: 15px;
+}
+
+.personal-details_form > label > input:focus {
+  border: 1.5px solid #337d5a;
+  outline: none;
+}
+
+.personal-details_form > label > input::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+
+.personal-details_form > label > input::-moz-placeholder {
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+
+.personal-details_form > label > input:-ms-input-placeholder {
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+
+.personal-details_form > label > input::-ms-input-placeholder {
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+
+.personal-details_form > label > input::placeholder {
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+
+.input_okpo_details {
+  border: 1.5px solid rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 47px;
+  margin-bottom: 15px;
+}
+
+.input_okpo_details:focus {
+  border: 1.5px solid #337d5a;
+  outline: none;
+}
+
+.input_okpo_details::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+
+.input_okpo_details::-moz-placeholder {
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+
+.input_okpo_details:-ms-input-placeholder {
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+
+.input_okpo_details::-ms-input-placeholder {
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+
+.input_okpo_details::placeholder {
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 15px;
+}
+
+.input_town {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(../img/datalist.svg);
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 47%;
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.personal_details_button {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.personal_details_button > button {
+  width: 229px;
+  height: 50px;
+  border: 2px solid #337d5a;
+  background: #337d5a;
+  cursor: pointer;
+  font-family: Raleway;
+  font-weight: Bold;
+  font-size: 16px;
+  line-height: 17px;
+  color: #fff;
+}
+
+.personal_details_button > button:active {
+  background-color: #fff;
+  border: 2px solid #337d5a;
+  color: #337d5a;
+}
+
+.personal_details_image {
+  width: 440px;
+  height: 852px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.personal_details_image > h3 {
+  font-family: Raleway;
+  font-weight: ExtraBold;
+  font-size: 42px;
+  line-height: 44px;
+  position: absolute;
+  color: #fff;
+  top: 324px;
+  text-align: center;
+}
+
+.personal_details_image > p {
+  font-family: Raleway;
+  font-weight: SemiBold;
+  font-size: 20px;
+  line-height: 32px;
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  top: 430px;
+  text-align: center;
+}
+
 @media (max-width: 1290px) {
   .container {
     width: 98%;
@@ -4571,6 +4875,14 @@ input[type=checkbox]:not(:checked) + label:after {
 
   .go_next {
     width: 40%;
+  }
+
+  .personal-details_form > label > input {
+    width: 80%;
+  }
+
+  .input_okpo_details {
+    width: 80%;
   }
 }
 
@@ -5054,6 +5366,32 @@ input[type=checkbox]:not(:checked) + label:after {
   .go_next {
     width: 45%;
   }
+
+  .personal_details_div {
+    width: 70%;
+  }
+
+  .personal_details {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .personal-details_form > label > input {
+    width: 100%;
+  }
+
+  .input_okpo_details {
+    width: 100%;
+  }
+
+  .personal_details_button > button {
+    margin-bottom: 40px;
+  }
+
+  .personal_details_image {
+    display: none;
+  }
 }
 
 @media (max-width: 860px) {
@@ -5249,6 +5587,32 @@ input[type=checkbox]:not(:checked) + label:after {
         -ms-flex-pack: center;
             justify-content: center;
   }
+
+  .personal_contact_information_form {
+    width: 310px;
+    margin-left: 0;
+  }
+
+  .personal_contact_information_div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .personal_contact_information_form > button {
+    margin-bottom: 40px;
+  }
+
+  .contact_information_image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 650px) {
@@ -5429,6 +5793,21 @@ input[type=checkbox]:not(:checked) + label:after {
   }
 }
 
+@media (max-width: 550px) {
+  .personal_contact_information {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .personal_contact_information_div {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
 @media (max-width: 540px) {
   .main_header {
     font-size: 40px;
@@ -5471,6 +5850,18 @@ input[type=checkbox]:not(:checked) + label:after {
   .footer_nav_ul > li > a {
     font-size: 15px;
     margin-top: 5px;
+  }
+
+  .personal_details_card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .personal_details_div {
+    margin-left: 0;
+    width: 80%;
   }
 }
 
