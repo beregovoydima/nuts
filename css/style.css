@@ -2664,6 +2664,7 @@ h6 {
 .galery_play2 {
   position: absolute;
   z-index: 3;
+  width: 61px;
   display: none;
 }
 
