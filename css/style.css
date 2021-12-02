@@ -5155,7 +5155,6 @@ input::-webkit-calendar-picker-indicator {
   font-family: Montserrat;
   font-weight: 500;
   font-size: 14px;
-  margin-bottom: 20px;
 }
 
 .curier {
@@ -5265,7 +5264,7 @@ input::-webkit-calendar-picker-indicator {
   width: 10px;
   height: 10px;
   position: absolute;
-  top: 8px;
+  top: 3px;
   left: 9px;
   content: " ";
   display: block;
@@ -5274,6 +5273,148 @@ input::-webkit-calendar-picker-indicator {
 
 .checkbox_face {
   display: none;
+}
+
+.input_nova_country,
+.input_nova_city,
+.curier_odessa {
+  display: none;
+}
+
+.orders_radio_div {
+  margin-bottom: 20px !important;
+}
+
+.registration_adress2 {
+  margin-bottom: 30px;
+}
+
+.orders_button {
+  width: 249px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #337d5a;
+  border: 2px solid #337d5a;
+  color: #fff;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.orders_button:hover {
+  background-color: #fff;
+  color: #337d5a;
+}
+
+.accept {
+  width: 100%;
+  height: 518px;
+  background: url(../img/accept.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.accept > h3 {
+  font-family: Raleway;
+  font-weight: 800;
+  font-size: 45px;
+  text-align: center;
+  color: #fff;
+}
+
+.accept > p {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.error {
+  width: 100%;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.error_img {
+  position: relative;
+}
+
+.error_img > img {
+  max-width: 516px;
+  max-height: 179px;
+}
+
+.error > p {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  color: #1a2f3f;
+}
+
+.error > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 315px;
+  height: 50px;
+  border: 2px solid #337d5a;
+  text-decoration: none;
+  color: #337d5a;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.error > a:hover {
+  background: #337d5a;
+  color: #fff;
+}
+
+.error > a:hover svg > path {
+  fill: #fff;
 }
 
 @media (max-width: 1290px) {
@@ -6231,6 +6372,32 @@ input::-webkit-calendar-picker-indicator {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
+  .orders_card_form > label > input[type=text],
+  .orders_card_form > label > input[type=email],
+  .orders_card_form > label > input[type=tel] {
+    width: 310px;
+  }
+
+  .orders_radio > label > input {
+    width: 310px;
+  }
+
+  .orders_radio > div > label {
+    font-size: 10px;
+  }
+
+  .adress_radio_order {
+    width: 310px;
+  }
+
+  .accept > h3 {
+    font-size: 32px;
+  }
+
+  .accept > p {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 565px) {
@@ -6312,6 +6479,12 @@ input::-webkit-calendar-picker-indicator {
   .personal_details_div {
     margin-left: 0;
     width: 80%;
+  }
+}
+
+@media (max-width: 538px) {
+  .error_img > img {
+    max-width: 310px;
   }
 }
 
