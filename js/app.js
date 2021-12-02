@@ -222,4 +222,24 @@ if (bagPageTextNone != null) {
   });
 }
 
+const inputNovaCountry = document.querySelector(".input_nova_country");
+const inputNovaCity = document.querySelector(".input_nova_city");
+const curierOdessa = document.querySelector(".curier_odessa");
+
+function ordersRadio1() {
+  inputNovaCountry.style.display = "block";
+  inputNovaCity.style.display = "block";
+  curierOdessa.style.display = "none";
+}
+function ordersRadio2() {
+  inputNovaCountry.style.display = "none";
+  inputNovaCity.style.display = "none";
+  curierOdessa.style.display = "block";
+}
+function ordersRadio3() {
+  inputNovaCountry.style.display = "none";
+  inputNovaCity.style.display = "none";
+  curierOdessa.style.display = "none";
+}
+
 
